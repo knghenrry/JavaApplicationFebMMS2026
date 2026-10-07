@@ -1,0 +1,14 @@
+public class SingleSelection{
+   public static void main(String [] args){
+      int age = 17;
+	  String name = "Miriam";
+	  
+	  if(age >= 18){
+	    System.out.println("oh wow, you are now an adult");
+		}
+		
+	  if(name.equals("Miriam")){
+		  System.out.println( name + " You are welcome");
+	  }
+   }
+}

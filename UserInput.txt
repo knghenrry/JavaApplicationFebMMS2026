@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+public class UserInput{
+     public static void main(String[] args){
+	   Scanner Scan = new Scanner(System.in);
+	   System.out.print("Enter your name: ");
+	   String name = Scan.nextLine();
+	   
+	   System.out.print("Enter your gender: ");
+	   String gender = scan.next();
+	   
+	   System.out.print("Enter your address: ");
+	   String gender = scan.nextLine();
+	   
+	   System.out.print("Enter your age: ");
+	   int gender = scan.nextInt();
+	   
+	   System.out.printf("Welcome %s to NIIT",name);
+	   System.out.printf("You are a %s and you are living in %s ",gender,address);
+	   System.out.printf("You are %d years old. Nice meeting you%n",age);
+	   
+	   
+	 }
+}
